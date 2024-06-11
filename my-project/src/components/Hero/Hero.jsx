@@ -2,7 +2,7 @@ import React from "react"
 import App from "../../App"
 import Image1 from "../../assets/hero/flyingo.png"
 import Image2 from "../../assets/hero/aircraft.png"
-import Image3 from "../../assets/hero/travel.png"
+import Image3 from "../../assets/hero/travel.gif"
 import Slider from "react-slick"
 
 const ImageList = [
@@ -54,11 +54,27 @@ const Hero = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2">
                 {/* text content section */}
                 <div className="flex flex-col justify-center gap-4 pt-8 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
-                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold ">
+                  <h1
+                    className="text-3xl sm:text-4xl lg:text-5xl font-bold"
+                    data-aos="zoom-out"
+                    data-aos-duration="500"
+                    data-aos-once="true"
+                  >
                     {data.title}
                   </h1>
-                  <p className="text-sm">{data.description}</p>
-                  <div>
+                  <p
+                    className="text-sm"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="100"
+                  >
+                    {data.description}
+                  </p>
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    data-aos-delay="300"
+                  >
                     <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                       Order Now
                     </button>
@@ -66,7 +82,11 @@ const Hero = () => {
                 </div>
                 {/* Image section */}
                 <div className="order-1 sm:order-2">
-                  <div className="relative z-10">
+                  <div
+                    className="relative z-10"
+                    data-aos="zoom-in"
+                    data-aos-once="true"
+                  >
                     <img
                       src={data.img}
                       alt=""

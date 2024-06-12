@@ -2,7 +2,7 @@ import React from "react"
 import App from "../../App"
 import Image1 from "../../assets/hero/flyingo.png"
 import Image2 from "../../assets/hero/aircraft.png"
-import Image3 from "../../assets/hero/travel.gif"
+import Image3 from "../../assets/hero/travel.png"
 import Slider from "react-slick"
 
 const ImageList = [

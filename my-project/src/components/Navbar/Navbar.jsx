@@ -59,7 +59,7 @@ const Navbar = () => {
               className=" uppercase font-bold text-2xl sm:text-3xl flex gap-2"
             >
               <img src={Logo} alt="Logo" className="w-24" />
-              حقیقت لایت
+              حقیقت لامپ
             </a>
           </div>
 

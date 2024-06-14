@@ -55,7 +55,7 @@ const Products = () => {
       <div className="container">{/* Header Section */}</div>
       <div className="mb-10 text-center max-w-[600px] mx-auto">
         <p data-aos="fade-up" className="text-sm text-primary ">
-          بیشترین فروش کالاها برای شما
+          بیشترین فروش محصولات
         </p>
         <h1 data-aos="fade-up" className="text-4xl font-bold font-custom1">
           محصولات

@@ -87,7 +87,7 @@ const Products = () => {
                 <img
                   src={data.img}
                   alt=""
-                  className="h-[220px] w-[150px] object-cover rounded-md"
+                  className="hover:scale-110 duration-500 h-[220px] w-[150px] object-cover rounded-md"
                 />
                 <div>
                   <h3 className="font-semibold">{data.title}</h3>

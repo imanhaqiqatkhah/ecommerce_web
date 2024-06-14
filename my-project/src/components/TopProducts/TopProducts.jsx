@@ -37,7 +37,7 @@ const TopProducts = () => {
           <p data-aos="fade-up" className="text-sm text-primary">
             بیشترین امتیازات محصولات
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold font-custom1">
+          <h1 data-aos="fade-up" className="text-4xl font-bold font-custom1">
             محصولات
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400 text-balance">

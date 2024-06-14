@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode:"class",
+  darkMode: "class",
   theme: {
+    fontFamily: {
+      custom1: ["Custom-1", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: "#fea928",

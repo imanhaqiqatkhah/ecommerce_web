@@ -9,39 +9,39 @@ import DarkMode from "./DarkMode"
 const Menu = [
   {
     id: 1,
-    name: "Home",
+    name: "خانه",
     link: "/#",
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "فروش ویژه",
     link: "/services",
   },
   {
     id: 3,
-    name: "Single Travels",
+    name: "رزرو نوبت",
     link: "/#",
   },
   {
     id: 3,
-    name: "Family Travels",
+    name: "دوخت فرمان چرم",
     link: "/#",
   },
   {
     id: 3,
-    name: "Tour Travels",
+    name: "خرید هدلایت",
     link: "/#",
   },
 ]
 
 const DropDownLinks = [
-  { id: 1, name: "Best Travels", link: "/#" },
-  { id: 2, name: "Fly Security", link: "/#" },
-  {
-    id: 3,
-    name: "Top Enjoy",
-    link: "/#",
-  },
+  { id: 1, name: "شبکه اجتماعی", link: "/#" },
+  { id: 2, name: "وبلاگ من", link: "/#" },
+  // {
+  //   id: 3,
+  //   name: "وبلاگ من",
+  //   link: "/#",
+  // },
 ]
 
 const Navbar = () => {
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div>
             <a
               href="#"
-              className=" uppercase font-bold text-2xl sm:text-3xl flex gap-2"
+              className=" uppercase font-bold text-2xl sm:text-3xl flex gap-2 font-custom1"
             >
               <img src={Logo} alt="Logo" className="w-24" />
               حقیقت لامپ
@@ -107,7 +107,7 @@ const Navbar = () => {
           {/* { Simple Dropdown and links */}
           <li className="group relative cursor-pointer">
             <a href="#" className="flex items-center gap-[2px] py-2 ">
-              Trending Products
+              تماس با ما
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>

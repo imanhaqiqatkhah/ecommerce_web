@@ -55,7 +55,7 @@ const TopProducts = () => {
               dir="rtl"
               key={data.id}
               data-aos="zoom-in"
-              className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
+              className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-yellow-600 hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
             >
               {/* image section */}
               <div className="h-[100px]">
@@ -70,11 +70,11 @@ const TopProducts = () => {
               <div className="p-4 text-center ">
                 {/* start rating */}
                 <div className="w-full flex items-center justify-center gap-1">
-                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
-                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
-                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
-                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
-                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
+                  <FaStar className="text-yellow-500 " />
+                  <FaStar className="text-yellow-500 " />
+                  <FaStar className="text-yellow-500 " />
+                  <FaStar className="text-yellow-500 " />
+                  <FaStar className="text-yellow-500 " />
                 </div>
                 <h1 className="text-xl font-bold dark:text-white">
                   {data.title}

@@ -70,13 +70,16 @@ const TopProducts = () => {
               <div className="p-4 text-center ">
                 {/* start rating */}
                 <div className="w-full flex items-center justify-center gap-1">
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
-                  <FaStar className="text-yellow-500" />
+                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
+                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
+                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
+                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
+                  <FaStar className="text-yellow-500 dark:text-yellow-200" />
                 </div>
-                <h1 className="text-xl font-bold">{data.title}</h1>
-                <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2 ">
+                <h1 className="text-xl font-bold dark:text-white">
+                  {data.title}
+                </h1>
+                <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2 dark:text-gray-300 ">
                   {data.description}
                 </p>
                 <button

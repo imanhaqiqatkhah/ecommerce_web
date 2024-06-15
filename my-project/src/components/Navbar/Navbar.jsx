@@ -44,7 +44,7 @@ const DropDownLinks = [
   // },
 ]
 
-const Navbar = () => {
+const Navbar = ({ handleOrderPopup }) => {
   return (
     <div
       dir="rtl"
@@ -74,7 +74,7 @@ const Navbar = () => {
               <IoMdSearch className="absolute text-gray-500 group-hover:text-primary top-1/2 -translate-y-1/2 left-3" />
             </div>
             <button
-              onClick={() => alert("Ordering not available yet")}
+              onClick={() => handleOrderPopup()}
               className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
             >
               <span className="group-hover:block hidden transition duration-200">

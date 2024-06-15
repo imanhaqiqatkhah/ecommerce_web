@@ -100,6 +100,12 @@ const Products = () => {
               </div>
             ))}
           </div>
+          {/* view all buttons */}
+          <div className="flex justify-center">
+            <button className="hover:scale-105 duration-300 text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md ">
+              مشاهده همه ی محصولات
+            </button>
+          </div>
         </div>
       </div>
     </div>

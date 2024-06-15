@@ -56,7 +56,7 @@ const Hero = () => {
                 {/* text content section */}
                 <div className="flex flex-col justify-center gap-4 pt-8 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                   <h1
-                    className="text-3xl sm:text-3xl lg:text-4xl font-bold py-2 text-right"
+                    className="text-3xl sm:text-3xl lg:text-4xl font-bold py-2 text-right font-custom1"
                     data-aos="zoom-out"
                     data-aos-duration="500"
                     data-aos-once="true"

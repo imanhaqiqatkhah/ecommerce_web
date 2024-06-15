@@ -1,9 +1,9 @@
 import React from "react"
-import Img1 from "../../assets/women/women.jpg"
-import Img2 from "../../assets/women/women2.jpg"
-import Img3 from "../../assets/women/women3.jpg"
-import Img4 from "../../assets/women/women4.jpg"
-import Img5 from "../../assets/women/women5.jpg"
+import Img1 from "../../assets/women/women.png"
+import Img2 from "../../assets/women/women2.png"
+import Img3 from "../../assets/women/women3.png"
+import Img4 from "../../assets/women/women4.png"
+import Img5 from "../../assets/women/women5.png"
 import { FaStar } from "react-icons/fa6"
 
 const ProductsData = [
@@ -34,7 +34,7 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "لامپ داخلی ماشین",
+    title: "خوش بو کننده",
     rating: 4.0,
     color: "انواع رنگ ها",
     aosDelay: "600",

@@ -1,30 +1,34 @@
 import React from "react"
 import Slider from "react-slick"
+import Comment1 from "../../assets/comment/comment1.jpg"
+import Comment2 from "../../assets/comment/comment2.jpg"
+import Comment3 from "../../assets/comment/comment3.jpg"
+import Comment4 from "../../assets/comment/comment4.jpg"
 
 const TestimonialData = [
   {
     id: 1,
-    name: "ایمان",
+    name: "مهربان",
     text: "عالی، محصولاتتون عالین، من که خیلی خیلی راضیم",
-    img: "https://picsum.photos/101/101",
+    img: Comment1,
   },
   {
     id: 2,
-    name: "اکرم",
+    name: "ایمان",
     text: "عالی، عجب سایت خفن و خوشگلی، به همه آرزوهات میرسی، مطمئنم",
-    img: "https://picsum.photos/102/102",
+    img: Comment2,
   },
   {
     id: 3,
-    name: "اقدس",
+    name: "مولود محیا",
     text: "من میخوام سرمایه گذاری کنم روی کسب و کارتون، به واتساپ پیام دادم، مرسی",
-    img: "https://picsum.photos/103/103",
+    img: Comment3,
   },
   {
     id: 4,
-    name: "امین",
-    text: "داداش گلم، همیشه پاینده باشی",
-    img: "https://picsum.photos/104/104",
+    name: "مامان بابا",
+    text: "پسر گلم، همیشه پاینده باشی و در مسیر پیشرفت",
+    img: Comment4,
   },
 ]
 
@@ -43,7 +47,7 @@ const Testimonials = () => {
     pauseOnFocus: true,
     responsive: [
       {
-        breakpoint: 10000,
+        breakpoint: 2000,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
